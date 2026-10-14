@@ -1,0 +1,5 @@
+distance=int(input())
+consumption=float(input())
+cost=float(input())
+print("топливо:",(consumption/100)*distance,"л")
+print("стоимость:",cost*(consumption/100)*distance,"руб")
